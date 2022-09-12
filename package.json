@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"firebase": "^9.9.4",
 		"uuid": "^9.0.0"
 	}
 }
