@@ -43,6 +43,7 @@ onValue(roomChange, async function (snapshot) {
 console.log(user)
 </script>
 <Login bind:resultuser={user}></Login>
+<p>Chat Code {roomid}</p>
 <div class="box has-text-centered">
   <Chat user={user} messages={messages} db={db} roomid={roomid}></Chat>
 </div>
