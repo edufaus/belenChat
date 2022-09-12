@@ -85,6 +85,14 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
+	export const VITE_apiKey: string;
+	export const VITE_authDomain: string;
+	export const VITE_databaseURL: string;
+	export const VITE_projectID: string;
+	export const VITE_storageBucket: string;
+	export const VITE_messagingSenderID: string;
+	export const VITE_appID: string;
+	export const VITE_measurementId: string;
 }
 
 /**
@@ -173,6 +181,14 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
+		VITE_apiKey: string;
+		VITE_authDomain: string;
+		VITE_databaseURL: string;
+		VITE_projectID: string;
+		VITE_storageBucket: string;
+		VITE_messagingSenderID: string;
+		VITE_appID: string;
+		VITE_measurementId: string;
 		[key: string]: string | undefined;
 	}
 }

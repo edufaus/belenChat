@@ -30,7 +30,7 @@
        if (await GAUTH()) {
         user = browser ? JSON.parse(window.sessionStorage.getItem('user')) ?? '' : '';
         resultuser = user;
-        location.reload();
+        // location.reload();
        }
        else {
         console.log("error")
