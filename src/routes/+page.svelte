@@ -51,7 +51,7 @@
       style="width: 50%;"
       maxlength="8"
       type="number"
-      placeholder="RoomId"
+      placeholder="Chat Code"
       bind:value={roomId}
     />
     <a href={"/room/" + roomId}><div class="button">Join Chat</div></a>
