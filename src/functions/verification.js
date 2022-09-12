@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { GoogleAuthProvider, getAuth, signInWithPopup } from  'firebase/auth';
 import { browser } from '$app/environment';
 
